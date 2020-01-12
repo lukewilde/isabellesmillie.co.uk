@@ -37,6 +37,13 @@ h1 {
   font-size: 2.2rem;
 }
 
+::selection {
+  background: #A6A89F; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #A6A89F; /* Gecko Browsers */
+}
+
 @media (min-width: 760px) {
   h1 {
     font-size: 4.5rem;
@@ -45,6 +52,12 @@ h1 {
 
   .layout {
     max-width: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size:5rem;
   }
 }
 </style>
