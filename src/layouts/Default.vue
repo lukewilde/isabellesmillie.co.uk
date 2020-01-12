@@ -1,14 +1,5 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
     <slot/>
   </div>
 </template>
@@ -27,24 +18,33 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+  background: #DBD5C9;
 }
 
 .layout {
-  max-width: 760px;
+  max-width: 500px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
-.nav__link {
-  margin-left: 20px;
+h1 {
+  color: #944A1F;
+  font-size: 2.2rem;
+}
+
+@media (min-width: 760px) {
+  h1 {
+    font-size: 4.5rem;
+    padding: 0 1rem;
+  }
+
+  .layout {
+    max-width: 1000px;
+  }
 }
 </style>
