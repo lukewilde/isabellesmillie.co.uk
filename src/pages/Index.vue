@@ -4,6 +4,7 @@
     <h1>Hi, I'm Izzy. </br> A front-end developer </br> based in Brighton.</h1>
     <ul class="social-links">
       <li><a href="https://github.com/IzzySmillie"><font-awesome :icon="['fab', 'github']"/></a></li>
+      <li><a href="https://codepen.io/ISmillie"><font-awesome :icon="['fab', 'codepen']"/></a></li>
       <li><a href="https://twitter.com/izzysmillie"><font-awesome :icon="['fab', 'twitter']"/></a></li>
       <li><a href="https://www.linkedin.com/in/isabellesmillie"><font-awesome :icon="['fab', 'linkedin-in']"/></a></li>
       <li><a href="mailto:isabelle.smillie@gmail.com"><font-awesome :icon="['fas', 'envelope']"/></a></li>
@@ -15,8 +16,8 @@
 .social-links {
   list-style: none;
   display: flex;
-  justify-content: center;
-  padding-left: 0;
+  justify-content: flex-start;
+  padding-left: 1rem;
 }
 
 .social-links li {
