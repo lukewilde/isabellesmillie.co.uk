@@ -18,7 +18,7 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
-  background: #DBD5C9;
+  background: #85e62c;
 }
 
 .layout {
@@ -33,15 +33,15 @@ body {
 }
 
 h1 {
-  color: #944A1F;
+  color: #209c05;
   font-size: 2.2rem;
 }
 
 ::selection {
-  background: #A6A89F; /* WebKit/Blink Browsers */
+  background: #f2ce02; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #A6A89F; /* Gecko Browsers */
+  background: #f2ce02; /* Gecko Browsers */
 }
 
 @media (min-width: 760px) {
