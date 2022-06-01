@@ -7,10 +7,10 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^5.12.0",
-    "gridsome": "^0.7.0"
   },
   "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "gridsome": "^0.7.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
     "@fortawesome/vue-fontawesome": "^0.1.9"
