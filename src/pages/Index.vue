@@ -6,7 +6,7 @@
       <li><a href="https://github.com/lukewilde"><font-awesome :icon="['fab', 'github']"/></a></li>
       <li><a href="https://twitter.com/lukewilde"><font-awesome :icon="['fab', 'twitter']"/></a></li>
       <li><a href="https://www.linkedin.com/in/lwilde1/"><font-awesome :icon="['fab', 'linkedin-in']"/></a></li>
-      <li><a href="mailto:luke.wilde@gmail.com"><font-awesome :icon="['fas', 'envelope']"/></a></li>
+      <li><a href="mailto:luke@lukewilde.co.uk"><font-awesome :icon="['fas', 'envelope']"/></a></li>
     </ul>
   </Layout>
 </template>
